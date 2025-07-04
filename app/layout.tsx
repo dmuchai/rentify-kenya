@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/custom/Navbar";
 import { Toaster } from "@/components/ui/sonner";
 import { AuthProvider } from "@/app/context/AuthContext";
+import "leaflet/dist/leaflet.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
